@@ -22,5 +22,11 @@ namespace Git01
             label1.Text = "8====>";
             MessageBox.Show("老二");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "8=============>";
+            MessageBox.Show("大老二");
+        }
     }
 }
