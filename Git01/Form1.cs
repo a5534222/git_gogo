@@ -19,14 +19,11 @@ namespace Git01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "8====>";
-            MessageBox.Show("老二");
+            string obj = "";
+            obj = comboBox1.Text;
+            pictureBox1.Image= Image.FromFile("\\git_gogo\\pic\\" + obj + ".gif");
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            label1.Text = "8=============>";
-            MessageBox.Show("大老二");
-        }
+        
     }
 }
